@@ -1,9 +1,9 @@
 
 module.exports = {
     "registercommands": true, //Write True If You Are Launching The Bot First Time
-    "token": "MTE5MDI5NTc0ODMxNTcxNzY3Mw.GcLA-f.2AX0Usf-RizVa5glDvmW26tSnM3nTmA2kMAdS4", //Your Super Secret Bot Token
+    "token": "token", //Your Super Secret Bot Token
     "imageapi": "", //Your Amethyste Api You can get it from https://api.amethyste.moe/
-    "ownerID": [553317144746655787], //Your Discord User ID
+    "ownerID": [userid], //Your Discord User ID
     "prefix": ".", //Your Bot's Prefix
     "chat": {
         "url": "",
@@ -11,8 +11,8 @@ module.exports = {
         "key": "",
         "uid": ""
     }, // You can get This Things from https://brainshop.ai
-    "api": "AIzaSyD3lCq72iP1-Gy-ZWB8L9bb3XfEYYJTML8", // Your Youtube Api
-    "youtubeAPI": "AIzaSyD3lCq72iP1-Gy-ZWB8L9bb3XfEYYJTML8", // Your Youtube Api
+    "api": "api", // Your Youtube Api
+    "youtubeAPI": "api", // Your Youtube Api
     mainprefix: ".",  // Again Your Prefix
     "owner": "not1cyyy", // Owner Name
 
@@ -34,7 +34,7 @@ module.exports = {
     grole: "Giveaway Manager", //If the member doesn't have permission to handle messages he can still use the giveaways commands if he has the role configured right here
 
     auth: {
-        support: "https://discord.gg/ERuYpfWAQJ", //The link of your Discord server
+        support: "server", //The link of your Discord server
         dperms: "8" //The permissions that the bot asks on we want to add it on a Discord server (8 = moderator)
     },
 } 
